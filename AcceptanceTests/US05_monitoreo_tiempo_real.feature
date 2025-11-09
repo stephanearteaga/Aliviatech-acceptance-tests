@@ -1,5 +1,5 @@
 Epic: Monitoreo Fisiológico
-ID-HU: US05
+ID: US05
 
 Feature: Monitoreo en tiempo real de signos vitales
   Como usuario que usa la pulsera AliviaTech
