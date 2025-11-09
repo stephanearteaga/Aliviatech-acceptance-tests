@@ -1,5 +1,5 @@
 Epic: Seguridad y Soporte
-ID-HU: US06
+ID: US06
 
 Feature: Botón de emergencia
   Como usuario con síntomas de crisis
