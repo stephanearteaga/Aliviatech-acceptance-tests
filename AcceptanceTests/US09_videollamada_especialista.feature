@@ -1,5 +1,3 @@
-# Epic: Comunicación y Asistencia
-# ID-HU: US09
 
 Feature: Videollamada con especialista
   Como usuario
