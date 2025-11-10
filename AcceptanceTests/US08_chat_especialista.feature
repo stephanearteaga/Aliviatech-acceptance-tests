@@ -1,5 +1,5 @@
 Epic: Comunicación y Asistencia
-ID-HU: US08
+ID: US08
 
 Feature: Chat con especialista
   Como usuario
