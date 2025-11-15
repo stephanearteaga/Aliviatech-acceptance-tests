@@ -1,4 +1,4 @@
-Epic: Monitoreo Fisiológico
+Epic: Monitoreo IoT
 ID: US04
 
 Feature: Sincronización de pulsera inteligente
