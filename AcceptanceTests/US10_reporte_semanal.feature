@@ -1,4 +1,4 @@
-ID : US12
+ID : US10
 
 Feature: Historial de reportes semanales
   Como usuario
