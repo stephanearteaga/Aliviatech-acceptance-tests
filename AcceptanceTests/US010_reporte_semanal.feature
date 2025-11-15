@@ -3,7 +3,7 @@ ID : US010
 Feature: Historial de reportes semanales
   Como usuario
   quiero recibir un reporte semanal de mis signos vitales y episodios de ansiedad
-  para revisar mi progreso y entender mi estado emocional a lo largo del tiempo
+  para revisar mi progreso y entender mi estado emocional a lo largo del tiempo.
 
   Scenario: Generacion automatica del reporte semanal
     Given que el sistema recopila datos diarios del usuario
