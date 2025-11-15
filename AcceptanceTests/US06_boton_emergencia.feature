@@ -1,7 +1,6 @@
-Epic: Seguridad y Soporte
 ID: US06
 
-Feature: Botón de emergencia
+Epic: Seguridad y SoporteFeature: Botón de emergencia
   Como usuario con síntomas de crisis
   Quiero presionar un botón de emergencia en la app
   Para recibir ayuda inmediata y sentirme seguro
