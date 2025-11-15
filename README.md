@@ -5,7 +5,7 @@ especificados.
 
 Historias de Usuario incluidas
 - *US04:* Sincronización de pulsera inteligente  
-- *US05:*Detección de signos de ansiedad
+- *US05:* Detección de signos de ansiedad
 - *US06:* Botón de emergencia  
 - *US08:* Chat con especialista  
 - *US010:* Historial de reportes semanales
