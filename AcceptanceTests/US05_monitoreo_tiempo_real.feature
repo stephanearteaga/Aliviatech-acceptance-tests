@@ -1,19 +1,18 @@
-Epic: Monitoreo Fisiológico
 ID: US05
 
-Feature: Monitoreo en tiempo real de signos vitales
-  Como usuario que usa la pulsera AliviaTech
-  Quiero visualizar mis signos vitales en tiempo real
-  Para poder conocer mi estado físico y emocional constantemente
+Feature: Detección de signos de ansiedad
+  Como usuario
+  quiero que la app detecte signos de ansiedad mediante la pulsera
+  para recibir alertas tempranas
 
-  Scenario: Visualización correcta de datos
-    Dado que la pulsera está sincronizada con la app
-    Cuando el usuario abre la sección "Monitoreo en tiempo real"
-    Entonces se muestran los valores actuales de frecuencia cardíaca, temperatura y oxígeno
-    Y los datos se actualizan automáticamente cada pocos segundos
+  Scenario: Detección de signos elevados
+    Given que el usuario lleva la pulsera IoT sincronizada
+    And la pulsera registra su ritmo cardiaco y respiración
+    When se detecta un aumento anormal que supera el umbral configurado
+    Then el sistema envía una alerta inmediata al teléfono del usuario
 
-  Scenario: Falla en la transmisión de datos
-    Dado que el dispositivo pierde conexión con la app
-    Cuando el usuario intenta ver los datos en la pantalla de monitoreo
-    Entonces se muestra el mensaje "Sin señal del dispositivo"
-    Y se sugiere revisar la conexión Bluetooth
+  Scenario: Marcado de falsa alarma
+    Given que el usuario recibe una alerta de ansiedad 
+    When selecciona la opción "Marcar como falsa alarma"
+    Then el sistema registra la incidencia
+    And ajusta los parámetros de detección para futuros eventos
