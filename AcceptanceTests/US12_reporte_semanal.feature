@@ -1,19 +1,17 @@
-Epic: Análisis y Seguimiento
 ID : US12
 
-Feature: Generación automática de reportes semanales
-  Como especialista
-  Quiero recibir reportes automáticos de los usuarios asignados
-  Para evaluar su progreso y detectar posibles recaídas
+Feature: Historial de reportes semanales
+  Como usuario
+  Quiero recibir un reporte semanal de mis signos vitales y episodios de ansiedad
+  Para revisar mi progreso y entender mi estado emocional a lo largo del tiempo
 
-  Scenario: Generación automática de reporte
-    Dado que el sistema cuenta con los datos de la semana
-    Cuando llega el día domingo
-    Entonces el sistema genera un reporte con métricas de signos vitales y estados de ánimo
-    Y lo envía automáticamente al especialista y al usuario
+  Scenario: Generacion automatica del reporte semanal
+      Given que el sistema recopila datos diarios del usuario
+      When llega el dia domingo
+      Then el sistema genera un reporte con estadisticas y progreso
 
-  Scenario: Error al generar reporte
-    Dado que existen datos incompletos en la base
-    Cuando el sistema intenta generar el reporte semanal
-    Entonces muestra el mensaje "Faltan registros para completar el informe"
-    Y guarda el intento en el historial de tareas
+  Scenario: Error al generar el reporte
+      Given que la app intenta generar el reporte semanal
+      When no hay datos suficientes
+      Then el sistema muestra el mensaje "Faltan datos para generar el informe"
+      And registra el intento fallido en el historial de tareas
