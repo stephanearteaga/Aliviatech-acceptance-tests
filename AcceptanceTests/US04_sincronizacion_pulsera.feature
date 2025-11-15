@@ -3,7 +3,7 @@ ID: US04
 Feature: Sincronización de pulsera inteligente
   Como usuario con pulsera AliviaTech
   Quiero sincronizar mi dispositivo con la aplicación móvil
-  Para poder registrar mis signos vitales en tiempo real
+  Para poder registrar mis signos vitales en tiempo real.
 
   Scenario: Sincronización exitosa
     Given que el usuario se encuentra en la pantalla "Monitoreo IoT"
