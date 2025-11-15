@@ -3,7 +3,7 @@ ID: US08
 Feature: Chat con especialista
   Como usuario
   quiero conversar con un especialista por chat
-  para recibir orientación emocional cuando me sienta ansioso
+  para recibir orientación emocional cuando me sienta ansioso.
 
   Scenario: Envío y recepción de mensajes
     Given que el usuario tiene una sesión activa
