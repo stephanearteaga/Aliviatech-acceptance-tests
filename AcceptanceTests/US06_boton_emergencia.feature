@@ -2,8 +2,8 @@ ID: US06
 
 Feature: Botón de emergencia
   Como usuario con síntomas de crisis
-  Quiero presionar un botón de emergencia en la app
-  Para contactar rapidamente a un especialista o familiar
+  quiero presionar un botón de emergencia en la app
+  para contactar rapidamente a un especialista o familiar.
 
   Scenario: Activación correcta de alerta
     Given que el usuario se encuentra dentro de la aplicación
