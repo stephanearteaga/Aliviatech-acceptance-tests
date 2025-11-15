@@ -5,8 +5,8 @@ especificados.
 
 Historias de Usuario incluidas
 - *US04:* Sincronización de pulsera inteligente  
-- *US05:* Monitoreo en tiempo real de signos vitales  
+- *US05:*Detección de signos de ansiedad
 - *US06:* Botón de emergencia  
 - *US08:* Chat con especialista  
-- *US09:* Videollamada con especialista  
-- *US12:* Generación automática de reportes semanales
+- *US010:* Historial de reportes semanales
+- *US015:* Monitoreo en tiempo real 
